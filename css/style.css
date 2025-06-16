@@ -1,0 +1,134 @@
+/* General Page Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #005e2d;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+header img {
+  vertical-align: middle;
+}
+
+header h1 {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+/* Navigation Links */
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  padding: 40px 20px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+main h2, main h3 {
+  color: #005e2d;
+  margin-top: 20px;
+}
+
+/* Topic List Box */
+main ul {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto;
+  list-style-type: square;
+  text-align: left;
+}
+
+main ul li {
+  margin-bottom: 10px;
+}
+
+main p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Links in Main */
+main a {
+  color: #005e2d;
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #ddd;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  header h1 {
+    font-size: 1.2rem;
+    display: block;
+    margin-top: 10px;
+  }
+
+  nav {
+    display: block;
+    margin-top: 10px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px 6px;
+    font-size: 0.9rem;
+  }
+
+  main {
+    padding: 20px 10px;
+  }
+
+  main h2, main h3 {
+    font-size: 1.4rem;
+  }
+
+  footer {
+    font-size: 0.9rem;
+  }
+}
+nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+main ul {
+  list-style-type: disc;
+  padding-left: 25px;
+  margin-bottom: 20px;
+}
+

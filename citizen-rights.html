@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Citizen Rights</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="images/zambia-flag.png" alt="Zambia Flag" width="40" style="vertical-align: middle;">
+    <h1 style="display: inline-block; margin-left: 10px;">Zambian Law in Plain Language</h1>
+    <nav id="main-nav">
+  <a href="index.html">Home</a> |
+  <a href="about.html">About</a> |
+  <a href="marriage-law.html">Marriage Law</a> |
+  <a href="property-law.html">Property Law</a> |
+  <a href="citizen-rights.html">Citizen Rights</a>
+</nav>
+
+  </header>
+
+  <main>
+    <h2>Police & Citizen Rights</h2>
+    <p>This section will explain what your rights are when dealing with law enforcement in Zambia. Content coming soon.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Zambian Law Simplified</p>
+  </footer>
+  <script>
+  // Highlight active nav link based on current URL
+  const currentPage = location.pathname.split("/").pop(); // e.g., "about.html"
+  const navLinks = document.querySelectorAll("#main-nav a");
+
+  navLinks.forEach(link => {
+    if (link.getAttribute("href") === currentPage) {
+      link.classList.add("active");
+    }
+  });
+</script>
+
+</body>
+</html>
