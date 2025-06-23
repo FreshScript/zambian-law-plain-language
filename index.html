@@ -14,7 +14,9 @@
   <a href="about.html">About</a> |
   <a href="marriage-law.html">Marriage Law</a> |
   <a href="property-law.html">Property Law</a> |
-  <a href="citizen-rights.html">Citizen Rights</a>
+  <a href="police-citizen-rights.html">Citizen Rights</a> |
+  <a href="gender-based-violence.html">Gender Based Violence</a> |
+  <a href="employment-rights.html">Employment Rights</a> |
 </nav>
 
 </header>
@@ -29,7 +31,9 @@
     <li><a href="marriage-law.html">Marriage Law</a></li>
     <li><a href="property-law.html">Property Law</a></li>
     <li><a href="citizen-rights.html">Police and Citizen Rights</a></li>
-    <li><a href="#">Land Ownership (coming soon)</a></li>
+    <li><a href="land-ownership.html">Land Ownership </a></li>
+    <li><a href="gender-based-violence.html">Gender Based Violence </a></li>
+    <li><a href="employment-rights.html">Employment Rights </a></li>
   </ul>
 </main>
 
@@ -37,5 +41,16 @@
   <footer>
     <p>&copy; 2025 Zambian Law Simplified</p>
   </footer>
+  <script>
+  // Highlight active nav link based on current URL
+  const currentPage = location.pathname.split("/").pop(); // e.g., "about.html"
+  const navLinks = document.querySelectorAll("#main-nav a");
+
+  navLinks.forEach(link => {
+    if (link.getAttribute("href") === currentPage) {
+      link.classList.add("active");
+    }
+  });
+</script>
 </body>
 </html>

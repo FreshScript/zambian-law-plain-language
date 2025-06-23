@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Marriage Law - Zambian Law Simplified</title>
+  <title>Marriage Rights - Zambian Law in Plain Language</title>
   <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
 </head>
 <body>
-  <header>
+   <header>
     <img src="images/zambia-flag.png" alt="Zambia Flag" width="40" style="vertical-align: middle;">
     <h1 style="display: inline-block; margin-left: 10px;">Zambian Law in Plain Language</h1>
     <nav id="main-nav">
@@ -14,52 +14,86 @@
       <a href="about.html">About</a> |
       <a href="marriage-law.html">Marriage Law</a> |
       <a href="property-law.html">Property Law</a> |
-      <a href="citizen-rights.html">Citizen Rights</a>
+      <a href="police-citizen-rights.html">Police-Citizen Rights</a>
+      <a href="employment-rights.html">Employment Rights</a>
+      <a href="land-ownership.html">Land Ownership</a>
+      <a href="gender-based-violence.html">Gender Based Violence</a>
     </nav>
   </header>
+  <h1>Marriage Rights in Zambia</h1>
 
   <main>
-    <h2>Marriage Law in Zambia</h2>
+  <p>
+    In Zambia, marriage is recognized under both civil (government) and customary (traditional) law. Each type of marriage gives different rights and responsibilities to spouses. Knowing your rights helps you protect yourself and your family.
+  </p>
 
-    <p>Marriage in Zambia can be either under customary law or statutory (civil) law.</p>
+  <h2>Types of Marriage in Zambia</h2>
+  <ul>
+    <li><strong>Statutory (Civil) Marriage:</strong> Registered under the Marriage Act at a civic centre. It is strictly monogamous — one man and one woman only.</li>
+    <li><strong>Customary Marriage:</strong> Recognized by local traditions and may involve polygamy (more than one wife). No formal registration is required, but it must follow the customs of the tribe.</li>
+    <li><strong>Religious Marriage:</strong> Performed in churches or mosques. For legal effect, it must be registered under the Marriage Act.</li>
+  </ul>
 
-    <h3>1. Customary Marriage</h3>
-    <ul>
-      <li>Based on traditional customs and approved by both families.</li>
-      <li>Can involve lobola (bride price) and traditional ceremonies.</li>
-      <li>It is legally recognized if all customs are followed correctly.</li>
-    </ul>
+  <h2>Legal Age of Marriage</h2>
+  <p>
+    Under statutory law, the minimum age is <strong>21 years</strong>. However, a person aged <strong>16 to 20</strong> may marry with parental consent. Marrying someone below the legal age is considered child marriage and is illegal under the Children’s Code Act.
+  </p>
 
-    <h3>2. Statutory Marriage</h3>
-    <ul>
-      <li>Officially registered at a civic office or church licensed to marry.</li>
-      <li>Only allows one spouse at a time (monogamous).</li>
-      <li>Must be aged 21+ or have parental consent if younger.</li>
-    </ul>
+  <h2>Rights and Responsibilities of Spouses</h2>
+  <ul>
+    <li>Both spouses have the right to be treated with respect and dignity.</li>
+    <li>They share duties in the home — including care of children, work, and finances (depending on agreement or tradition).</li>
+    <li>Partners must support each other emotionally and materially — unless separated by law or court order.</li>
+    <li>Under statutory marriage, property acquired during the marriage is usually shared equally, unless otherwise agreed.</li>
+  </ul>
 
-    <h3>3. Key Legal Facts</h3>
-    <ul>
-      <li>You cannot be married under both systems at once.</li>
-      <li>Divorce is handled differently depending on the marriage type.</li>
-      <li>Marriages must be between consenting adults.</li>
-    </ul>
+  <h2>Women’s Rights in Marriage</h2>
+  <p>
+    Women have a right to:
+  </p>
+  <ul>
+    <li>Choose if and when to marry.</li>
+    <li>Own and inherit property.</li>
+    <li>Say no to sex — even within marriage (forced sex is marital rape).</li>
+    <li>Leave an abusive marriage and seek help or protection from court.</li>
+  </ul>
 
-    <p><strong>Note:</strong> This page simplifies Zambian marriage law. For legal advice, speak to a professional.</p>
+  <h2>When a Marriage Ends</h2>
+  <p>
+    A marriage can end through <strong>divorce</strong>, <strong>separation</strong>, or <strong>death</strong>. Here's what happens:
+  </p>
+  <ul>
+    <li><strong>Divorce (statutory):</strong> Filed in High Court or Local Court. You must prove that the marriage has broken down completely.</li>
+    <li><strong>Divorce (customary):</strong> Handled by families or traditional leaders. Each tribe has its own rules, but fairness must be followed.</li>
+    <li><strong>After divorce:</strong> Courts may divide property fairly and decide who keeps the children (custody).</li>
+  </ul>
+
+  <h2>Children in Marriage</h2>
+  <ul>
+    <li>Both parents have the responsibility to care for children — regardless of marriage status.</li>
+    <li>The court may decide who the child lives with if parents separate. The child's best interests are always most important.</li>
+    <li>Fathers must support their children, even if not married to the mother.</li>
+  </ul>
+
+  <p>
+    Many people assume traditional marriage gives fewer rights — but under Zambian law, <strong>customary marriages are also legally valid</strong> and enforceable if entered properly.
+  </p>
   </main>
 
-  <footer>
+  <!-- LEGAL NOTES section will be added here later -->
+    <footer>
     <p>&copy; 2025 Zambian Law Simplified</p>
   </footer>
-
   <script>
-    // Highlight active nav
-    const currentPage = location.pathname.split("/").pop();
-    const navLinks = document.querySelectorAll("#main-nav a");
-    navLinks.forEach(link => {
-      if (link.getAttribute("href") === currentPage) {
-        link.classList.add("active");
-      }
-    });
-  </script>
+  // Highlight active nav link based on current URL
+  const currentPage = location.pathname.split("/").pop(); // e.g., "about.html"
+  const navLinks = document.querySelectorAll("#main-nav a");
+
+  navLinks.forEach(link => {
+    if (link.getAttribute("href") === currentPage) {
+      link.classList.add("active");
+    }
+  });
+</script>
 </body>
 </html>
